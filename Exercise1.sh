@@ -7,13 +7,12 @@ echo
 echo "the user is = $USER"
 
 
-
-level3 = $(ls /etc/rc3.d/S*)
+ 
 echo "the home path is $HOME "
 echo "The terminal we use is: $TERM"
 
-echo "The runlevel3 services are $level3"
-
+echo "The List of things here are:"
+echo "$(ls)"
 
 echo "Thanks!"
 
